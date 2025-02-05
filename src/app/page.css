@@ -174,7 +174,7 @@
 
 .rect {
     width: 100%;
-    height: 85vh;
+    height: 75vh;
     background: #F9F9F9;
     text-align: center;
     line-height: 223px;
@@ -185,7 +185,7 @@
     position: absolute;
     bottom: 0px;
     width: 100%;
-    height: 200px;
+    height: 100px;
     background: #FFFFFF;
     left: 0;
     border-top-left-radius: 100%;
@@ -202,13 +202,11 @@
 
 @media (max-width: 1024px) {
     .rect {
-       margin-bottom: 35px;
-       height: 95vh
-    }
+    height: 70vh;
+}
     .rect:after {
         display: none;
      }
-
 }
 @media (min-width: 768px) {
 
@@ -244,7 +242,7 @@
     }
 
     .rect {
-        margin-bottom: 35px;
+        height: 100vh;
      }
 
     .feature-icon{
@@ -278,4 +276,7 @@
     .about-us-card-description {
         font-size: 12px;
     }
+    .rect {
+        height: 110vh;
+     }
 }
