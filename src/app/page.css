@@ -1,0 +1,281 @@
+.services {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.card-description {
+    padding: 1rem;
+    margin-top: 20px;
+}
+
+.banner {
+    background: linear-gradient(to right, #ec9615, #f16908) !important;
+}
+
+.cta-section {
+    color: white;
+    padding: 3.5rem 0;
+    text-align: center;
+}
+
+.cta-text {
+    text-align: start;
+    width: 100%;
+    max-width: 530px;
+    margin: 0px 20px 0px 0px;
+}
+
+.cta-button {
+    margin-top: 1rem;
+    border: 1px solid white !important;
+    padding: 0.55rem 1.5rem;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: capitalize;
+    background-color: transparent;
+    margin-top: 25px;
+    width: 247px;
+    height: 55px;
+    font-weight: 500;
+}
+
+.about-us {
+    text-align: center;
+    padding: 4rem 1.5rem;
+    max-width: 80rem;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+
+}
+
+.about-us-title {
+    background: linear-gradient(to right, #e6ba79, #ddab3d, #f16908) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    display: inline-block !important;
+    font-size: 1.25rem !important;
+    padding: 10px !important;
+}
+
+.about_text {
+    display: block;
+    width: 100%;
+}
+
+.about-us-subtitle {
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    color: black;
+}
+
+.about-us-description {
+    width: 100%;
+    margin-top: 1rem;
+    color: #4a4a4a;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.3rem;
+    max-width: 975px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 300;
+    line-height: 32.4px;
+}
+
+
+.about-us-services {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.about-us-card {
+    padding: 48px;
+    border: 2px solid #faf9f9f5;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.about-us-card-title {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    text-align: start;
+}
+
+.about-us-card-description {
+    color: #7A7A7A;
+    margin-top: 0.5rem;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 20px;
+}
+
+.about-us-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.about-button {
+    margin-top: 2rem;
+    background-color: #F48F16;
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    width: 158px;
+    height: 44px;
+}
+
+.bottom-image {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 12px;
+    background-image: url('./img/Line9.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.underline-image {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.bottom-image {
+    position: relative;
+    display: inline-block;
+}
+
+.backgroundBox {
+    background-image: url('./img/bag.svg');
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+}
+
+.rect {
+    width: 100%;
+    height: 85vh;
+    background: #F9F9F9;
+    text-align: center;
+    line-height: 223px;
+}
+
+.rect:after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 200px;
+    background: #FFFFFF;
+    left: 0;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+}
+
+.feature-icon {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1024px) {
+    .rect {
+       margin-bottom: 35px;
+       height: 95vh
+    }
+    .rect:after {
+        display: none;
+     }
+
+}
+@media (min-width: 768px) {
+
+    .about-us-services {
+        flex-direction: unset;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-us-title {
+        font-size: 1.1rem !important;
+    }
+
+    .about-us-subtitle {
+        font-size: 30px;
+    }
+
+    .about-us-description {
+        font-size: 16px;
+        max-width: 100%;
+    }
+    .about-us-card {
+        padding: 24px;
+        max-width: 100%;
+    }
+
+    .about-us-card-title {
+        font-size: 18px;
+    }
+
+    .about-us-card-description {
+        font-size: 14px;
+    }
+
+    .rect {
+        margin-bottom: 35px;
+     }
+
+    .feature-icon{
+        width: 75px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-us-title {
+        font-size: 1rem !important;
+    }
+
+    .about-us-subtitle {
+        font-size: 24px;
+    }
+
+    .about-us-description {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .about-us-card {
+        padding: 16px;
+    }
+
+    .about-us-card-title {
+        font-size: 16px;
+    }
+
+    .about-us-card-description {
+        font-size: 12px;
+    }
+}
